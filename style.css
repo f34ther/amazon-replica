@@ -1,0 +1,193 @@
+.header {
+    border: 1px solid grey;
+    border-radius: 1px;
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    padding: 0px;
+    margin-right: 15px;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+}
+
+#forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    margin-top: -25px;
+}
+
+.borked {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: orange;
+    border: 1px solid grey;
+    border-radius: 2px;
+    justify-content: center;
+    color: black;
+}
+
+.help {
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #007bff;
+}
+
+.right {
+    transform-origin: rotate(0.25turn);
+}
+
+.helpp {
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.new {
+    margin-left: 39.3%;
+    margin-right: 17%;
+}
+
+h5 {
+    font-family: sans-serif;
+    margin: 20px;
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    max-width: 100%;
+    position: relative;
+    margin-left: -23%;
+}
+
+h5:before {
+    content: "";
+    display: block;
+    margin-left: 20%;
+    width: 18%;
+    height: 1px;
+    background: grey;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+h5:after {
+    content: "";
+    display: block;
+    margin-right: 23%;
+    width: 16%;
+    height: 1px;
+    background: grey;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 57%;
+    background-color: lightgray;
+    border: 1px solid grey;
+    border-radius: 2px;
+    justify-content: center;
+    color: black;
+    margin-left: -3%;
+}
+
+.line {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: lightgray;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: x-small;
+    margin-left: px;
+    margin-top: -7px;
+}
+
+.privacy {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: x-small;
+    margin-left: 15px;
+    margin-top: -7px;
+}
+
+.halp {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: x-small;
+    margin-left: 15px;
+    margin-top: -7px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+h6 {
+    font-size: x-small;
+}
